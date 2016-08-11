@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.0'
 
-gem 'rails', '4.2.1'
+gem 'rails', '4.2.5'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -32,15 +32,16 @@ gem 'dotenv-rails'
 gem 'carrierwave'
 gem 'fog'
 gem 'gemoji'
-gem 'airbrake'
+gem 'paranoia'
 
 group :development do
-  gem 'taperole', '~> 1.2'
+  gem 'taperole', '~> 1.2.8'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'powder'
   gem 'bullet'
   gem 'quiet_assets'
+  gem 'web-console', '~> 2.0'
   gem 'fontcustom'
 end
 
@@ -52,7 +53,6 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-remote'
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
   gem 'spring'
 end
 
