@@ -35,7 +35,7 @@ gem 'gemoji'
 gem 'paranoia'
 
 group :development do
-  gem 'taperole', '~> 1.2'
+  gem 'taperole', '~> 1.2.8'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'powder'
