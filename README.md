@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/smashingboxes/orientation.svg?branch=master)](https://travis-ci.org/smashingboxes/orientation)
+
 # Smashing Boxes Wiki
 This is the [Smashing Boxes wiki](http://wiki.smashingboxes.com)
 
